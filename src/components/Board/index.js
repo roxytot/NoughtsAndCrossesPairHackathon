@@ -1,35 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Square from '../Square/';
 
-function Board(i)
-{
-    return(
-        <Square value={i}/> 
+
+
+function DisplayBoard() {
+    const [squares, setSquares] = useState(Array(9).fill(null))
+    function handleClick(index) {
+        const gridSquares = [...squares.splice(0, index), 'X', ...squares.splice(index + 1)];
+        setSquares(gridSquares);
+    }
+
+    function RenderSquare(i) {
+        return (
+            <Square index={squares[i]} handleClick={handleClick} />
+        )
+    }
+
+    return (
+        <div>
+            <div className="status">Game Status</div>
+            <div className="board-row">
+                {RenderSquare(0)}
+                {RenderSquare(1, handleClick)}
+                {RenderSquare(2, handleClick)}
+            </div>
+            <div className="board-row">
+                {RenderSquare(3, handleClick)}
+                {RenderSquare(4, handleClick)}
+                {RenderSquare(5, handleClick)}
+            </div>
+            <div className="board-row">
+                {RenderSquare(6, handleClick)}
+                {RenderSquare(7, handleClick)}
+                {RenderSquare(8, handleClick)}
+            </div>
+        </div>
     )
 }
 
-function DisplayBoard()
-{
-   return(
-       <div>
-           <div className="status">Game Status</div>
-           <div className="board-row">
-               {Board(0)}
-               {Board(1)}
-               {Board(2)}
-           </div>
-           <div className="board-row">
-               {Board(3)}
-               {Board(4)}
-               {Board(5)}
-           </div>
-           <div className="board-row">
-               {Board(6)}
-               {Board(7)}
-               {Board(8)}
-           </div>
-       </div>
-   ) 
-}
-
-export {Board, DisplayBoard};
+export { DisplayBoard };

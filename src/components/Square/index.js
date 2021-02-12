@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function Square({value})
-{
+
+function Square({ index, handleClick }) {
+
     return (
-        <button className="square">
-            {value}
-        </button>
+        <button className="square" onClick={() => { return handleClick(index) }}>
+            { index}
+        </button >
     )
 }
 
