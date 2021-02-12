@@ -1,6 +1,6 @@
 
 import "./Game.css";
-import { DisplayBoard } from '../Board';
+import Board from '../Board';
 import { useState } from "react";
 
 
@@ -10,7 +10,7 @@ function Game() {
     <div className="App">
       <header className="App-header">
         <h1>Happy Hacking Bootcampers!</h1>
-        <DisplayBoard />
+        <Board />
       </header>
     </div>
   );
