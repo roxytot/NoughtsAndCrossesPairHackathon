@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/NoughtsAndCrossesPairHackathon/static/css/main.e12cb67e.chunk.css",
+    "main.js": "/NoughtsAndCrossesPairHackathon/static/js/main.381e88cf.chunk.js",
+    "main.js.map": "/NoughtsAndCrossesPairHackathon/static/js/main.381e88cf.chunk.js.map",
+    "runtime-main.js": "/NoughtsAndCrossesPairHackathon/static/js/runtime-main.9a325828.js",
+    "runtime-main.js.map": "/NoughtsAndCrossesPairHackathon/static/js/runtime-main.9a325828.js.map",
+    "static/js/2.e5f9c71c.chunk.js": "/NoughtsAndCrossesPairHackathon/static/js/2.e5f9c71c.chunk.js",
+    "static/js/2.e5f9c71c.chunk.js.map": "/NoughtsAndCrossesPairHackathon/static/js/2.e5f9c71c.chunk.js.map",
+    "static/js/3.f7a43c60.chunk.js": "/NoughtsAndCrossesPairHackathon/static/js/3.f7a43c60.chunk.js",
+    "static/js/3.f7a43c60.chunk.js.map": "/NoughtsAndCrossesPairHackathon/static/js/3.f7a43c60.chunk.js.map",
+    "index.html": "/NoughtsAndCrossesPairHackathon/index.html",
+    "static/css/main.e12cb67e.chunk.css.map": "/NoughtsAndCrossesPairHackathon/static/css/main.e12cb67e.chunk.css.map",
+    "static/js/2.e5f9c71c.chunk.js.LICENSE.txt": "/NoughtsAndCrossesPairHackathon/static/js/2.e5f9c71c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a325828.js",
+    "static/js/2.e5f9c71c.chunk.js",
+    "static/css/main.e12cb67e.chunk.css",
+    "static/js/main.381e88cf.chunk.js"
+  ]
+}
