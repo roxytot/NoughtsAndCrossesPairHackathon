@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Square({ value, handleClick }) {
     return (
         <button 
